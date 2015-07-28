@@ -1,3 +1,8 @@
+.skull_list,
+.skull_list ul
+{
+    -webkit-overflow-scrolling : touch;
+}
 /*mobile-range-slider.css*/
 .slider {
     position: relative;

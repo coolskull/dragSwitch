@@ -140,12 +140,7 @@
 
     // Static method default options.
     $.fn.dragSwitch.defaults = {
-        range: 60,
-        items: [
-            {name: "car", text: "包车"},
-            {name: "carpool", text: "合乘"},
-            {name: "package", text: "寄货"}],
-        style: "switch"
+        range: 60
     };
 
 
