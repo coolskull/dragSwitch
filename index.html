@@ -28,7 +28,12 @@
 
 <script>
     $(function () {
-        $("#dragSwitch").dragSwitch();
+        $("#dragSwitch").dragSwitch({
+            items: [
+                {name: "car", text: "包车"},
+                {name: "carpool", text: "合乘"},
+                {name: "package", text: "寄货"}]
+        });
     });
 </script>
 </body>
